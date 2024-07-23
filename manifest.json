@@ -18,8 +18,8 @@
     {
       "matches": ["http://*/*", "https://*/*"],
       "run_at": "document_end",
-      "js": ["/contentScript/contentScript.js"],
-      "css": ["/contentScript/contentScript.css"]
+      "js": ["/content/content.js"],
+      "css": ["/content/content.css"]
     }
   ]
 }
