@@ -1,4 +1,4 @@
 /* - Se ejecuta en el contexto de la páginas que visita el usuario */
-p {
+body.p-red-bg p {
   background-color: red;
 }

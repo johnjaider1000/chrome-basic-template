@@ -1,6 +1,6 @@
 body {
     width: 450px;
-    height: 200px;
+    height: 300px;
     min-width: 400px;
     min-height: 200px;
     margin: 0;
@@ -39,4 +39,25 @@ h1 {
 
 p {
     margin: 0;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(122, 0, 0);
+}
+
+.btn.black {
+    background-color: #222222;
 }

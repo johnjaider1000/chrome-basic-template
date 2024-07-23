@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chrome extension</title>
-    <link rel="stylesheet" href="/assets/popup.css">
+    <link rel="stylesheet" href="/popup/popup.css">
     <script defer src="popup.js"></script>
 </head>
 <body>
@@ -13,7 +13,12 @@
         <div class='info'>
             <h1>My Custom Extension</h1>
             <p>Your extension is ready<br>you can go to <a target="_blank" href="https://developer.chrome.com/docs/extensions/">https://developer.chrome.com/docs/extensions/</a> to learn more about chrome extensions.</p>
+            <button id='toggleBtn' class='btn'>Toggle párrafos rojos</button>
+
+            <button id='countBtn' class='btn black'>Contar post</button>
         </div>
     </div>
+
+    <script src='/popup/popup.js' type="text/javascript"></script>
 </body>
 </html>
