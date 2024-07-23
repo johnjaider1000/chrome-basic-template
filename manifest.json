@@ -1,0 +1,25 @@
+{
+  "name": "Test 1 - Chrome extension",
+  "description": "Generated with chrome extension generator",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": { "default_popup": "popup.html", "default_icon": {} },
+  "background": { "service_worker": "background.js" },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_end",
+      "js": ["/contentScript/contentScript.js"],
+      "css": ["/contentScript/contentScript.css"]
+    }
+  ]
+}
